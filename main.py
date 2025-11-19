@@ -6,7 +6,7 @@ import os
 import numpy as np
 import tensorflow as tf
 import librosa
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 import shutil
 
 app = FastAPI(title="ascraa - Audio Deepfake Detection",
